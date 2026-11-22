@@ -1,0 +1,5 @@
+{
+  "cloudflare": {
+    "build": "npm run build"
+  }
+}

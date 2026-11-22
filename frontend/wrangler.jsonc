@@ -1,0 +1,10 @@
+{
+  // The Worker fnMoa publishes: the built app, with every unknown path
+  // answered by index.html so the app's own pages work on reload.
+  "name": "{{project}}",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

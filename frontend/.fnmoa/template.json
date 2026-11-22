@@ -1,0 +1,12 @@
+{
+  "name": "Web app",
+  "description": "A web app with pages and sign-in screens",
+  "picture": "preview.svg",
+  "asks": [
+    {
+      "id": "title",
+      "say": "What is your app called?"
+    }
+  ],
+  "fill": ["wrangler.jsonc", "package.json", "index.html", "src/App.tsx", "README.md"]
+}

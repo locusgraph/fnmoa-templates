@@ -1,0 +1,18 @@
+{
+  "name": "Full stack app",
+  "description": "A web app and its API in one project",
+  "picture": "preview.svg",
+  "asks": [
+    {
+      "id": "title",
+      "say": "What is your app called?"
+    }
+  ],
+  "fill": [
+    "wrangler.jsonc",
+    "package.json",
+    "apps/web/index.html",
+    "apps/web/src/App.tsx",
+    "README.md"
+  ]
+}

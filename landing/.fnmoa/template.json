@@ -1,0 +1,17 @@
+{
+  "name": "Landing page",
+  "description": "A one-page site with a contact form",
+  "picture": "preview.svg",
+  "asks": [
+    {
+      "id": "title",
+      "say": "What is your site called?"
+    },
+    {
+      "id": "tagline",
+      "say": "One line about it",
+      "optional": true
+    }
+  ],
+  "fill": ["wrangler.jsonc", "package.json", "src/pages/index.astro", "README.md"]
+}

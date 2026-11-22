@@ -1,0 +1,12 @@
+{
+  "name": "API",
+  "description": "An API with a database",
+  "picture": "preview.svg",
+  "asks": [
+    {
+      "id": "title",
+      "say": "What is your API called?"
+    }
+  ],
+  "fill": ["wrangler.jsonc", "package.json", "README.md"]
+}

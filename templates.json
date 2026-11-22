@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "folder": "backend",
+      "name": "API",
+      "description": "An API with a database",
+      "picture": "backend/preview.svg",
+      "asks": [
+        {
+          "id": "title",
+          "say": "What is your API called?"
+        }
+      ],
+      "fill": [
+        "wrangler.jsonc",
+        "package.json",
+        "README.md"
+      ]
+    },
+    {
+      "folder": "fullstack",
+      "name": "Full stack app",
+      "description": "A web app and its API in one project",
+      "picture": "fullstack/preview.svg",
+      "asks": [
+        {
+          "id": "title",
+          "say": "What is your app called?"
+        }
+      ],
+      "fill": [
+        "wrangler.jsonc",
+        "package.json",
+        "apps/web/index.html",
+        "apps/web/src/App.tsx",
+        "README.md"
+      ]
+    },
+    {
+      "folder": "landing",
+      "name": "Landing page",
+      "description": "A one-page site with a contact form",
+      "picture": "landing/preview.svg",
+      "asks": [
+        {
+          "id": "title",
+          "say": "What is your site called?"
+        },
+        {
+          "id": "tagline",
+          "say": "One line about it",
+          "optional": true
+        }
+      ],
+      "fill": [
+        "wrangler.jsonc",
+        "package.json",
+        "src/pages/index.astro",
+        "README.md"
+      ]
+    },
+    {
+      "folder": "frontend",
+      "name": "Web app",
+      "description": "A web app with pages and sign-in screens",
+      "picture": "frontend/preview.svg",
+      "asks": [
+        {
+          "id": "title",
+          "say": "What is your app called?"
+        }
+      ],
+      "fill": [
+        "wrangler.jsonc",
+        "package.json",
+        "index.html",
+        "src/App.tsx",
+        "README.md"
+      ]
+    }
+  ]
+}

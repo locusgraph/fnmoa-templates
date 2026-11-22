@@ -1,0 +1,15 @@
+{
+  // The Worker fnMoa publishes: the API, with its D1 database.
+  "name": "{{project}}",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "{{project}}",
+      // Set by fnMoa when it creates the database on the first publish.
+      "database_id": "{{database_id}}",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

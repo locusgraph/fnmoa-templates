@@ -1,0 +1,6 @@
+{
+  "cloudflare": {
+    "build": "npm run build",
+    "migrations": "d1"
+  }
+}

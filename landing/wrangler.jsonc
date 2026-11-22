@@ -1,0 +1,12 @@
+{
+  // The Worker fnMoa publishes. It serves the built site, and answers the
+  // contact form at /api/contact.
+  "name": "{{project}}",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  }
+}
