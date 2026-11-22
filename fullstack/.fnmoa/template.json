@@ -2,6 +2,7 @@
   "name": "Full stack app",
   "description": "A web app and its API in one project",
   "picture": "preview.svg",
+  "parts": ["site", "api", "database"],
   "asks": [
     {
       "id": "title",

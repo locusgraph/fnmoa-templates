@@ -6,6 +6,10 @@
       "name": "API",
       "description": "An API with a database",
       "picture": "backend/preview.svg",
+      "parts": [
+        "api",
+        "database"
+      ],
       "asks": [
         {
           "id": "title",
@@ -23,6 +27,11 @@
       "name": "Full stack app",
       "description": "A web app and its API in one project",
       "picture": "fullstack/preview.svg",
+      "parts": [
+        "site",
+        "api",
+        "database"
+      ],
       "asks": [
         {
           "id": "title",
@@ -42,6 +51,9 @@
       "name": "Landing page",
       "description": "A one-page site with a contact form",
       "picture": "landing/preview.svg",
+      "parts": [
+        "site"
+      ],
       "asks": [
         {
           "id": "title",
@@ -65,6 +77,9 @@
       "name": "Web app",
       "description": "A web app with pages and sign-in screens",
       "picture": "frontend/preview.svg",
+      "parts": [
+        "site"
+      ],
       "asks": [
         {
           "id": "title",

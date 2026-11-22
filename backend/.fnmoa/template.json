@@ -2,6 +2,7 @@
   "name": "API",
   "description": "An API with a database",
   "picture": "preview.svg",
+  "parts": ["api", "database"],
   "asks": [
     {
       "id": "title",

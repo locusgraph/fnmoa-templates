@@ -2,6 +2,7 @@
   "name": "Web app",
   "description": "A web app with pages and sign-in screens",
   "picture": "preview.svg",
+  "parts": ["site"],
   "asks": [
     {
       "id": "title",

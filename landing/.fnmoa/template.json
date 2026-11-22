@@ -2,6 +2,7 @@
   "name": "Landing page",
   "description": "A one-page site with a contact form",
   "picture": "preview.svg",
+  "parts": ["site"],
   "asks": [
     {
       "id": "title",
